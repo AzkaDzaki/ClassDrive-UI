@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.floated {
+    float:left;
+    margin-right:5px;
+ }
+
+.btn-choose{
+    background-color: #9C69E2;
+    border: 2px solid  #9C69E2;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.btn-create{
+    background-color: #ffffff;
+    border: 2px solid  #9C69E2;
+    border-radius: 8px;
+    color: #9C69E2;
+}

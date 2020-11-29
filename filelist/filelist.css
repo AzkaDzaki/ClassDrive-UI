@@ -1,0 +1,129 @@
+html, body{
+    height: 100%;
+    background-color:#f2f2f2;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 76px;
+}
+
+.navbar-brand{
+    color: #4f4f4f;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: #4f4f4f;
+}
+
+.card{
+    border: none;
+}
+
+.class-schedule{
+    text-align: end;
+}
+
+.btn-upload{
+    background-color: #9C69E2;
+    border: 2px solid  #9C69E2;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 48%;
+    float: right;
+    transition: 300ms;
+}
+
+.btn-upload:hover{
+    background-color: #a97aec;
+    border: 2px solid  #a97aec;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 48%;
+    float: right;
+    transition: 300ms;
+}
+
+.btn-edit{
+    background-color: #ffffff;
+    border: 2px solid  #9C69E2;
+    border-radius: 8px;
+    color: #9C69E2;
+    width: 48%;
+    transition: 300ms;
+}
+
+.btn-edit:hover{
+    background-color: #a97aec;
+    border: 2px solid  #a97aec;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 48%;
+    transform: 300ms;
+}
+
+table{
+    border-collapse:separate; 
+    border-spacing: 0 10px;
+}
+
+tbody{
+    border: none;
+    background-color: #ffffff;    
+}
+
+tbody > tr{
+    cursor: pointer;
+    transition: 300ms;
+    color: #000000;
+}
+
+tbody > tr:hover{
+    box-shadow: 0px 4px 10px rgb(112, 144, 176, 0.2);
+    transition: 500ms;
+}
+
+tr > td > .icon-table{
+    color: #000000;
+    transition: 300ms;
+}
+
+tr > td > .icon-table:hover{
+    color: #9C69E2;
+    transition: 300ms;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+/* nth-child(1) = the first td in each tr */
+td:nth-child(1) {
+    width: 80px;
+    }
+  
+  /* the second */
+  td:nth-child(2) {
+    width: 350px;
+  }
+  
+  /* the third */
+  td:nth-child(3) {
+    width: 300px;
+   }
+
+     /* the third */
+  td:nth-child(4) {
+    width: 200px;
+   }
+
+        /* the third */
+  td:nth-child(5) {
+    width: 200px;
+   }
